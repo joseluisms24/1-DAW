@@ -17,11 +17,19 @@ public class Boletin4ej7 {
         System.out.println("Introduzca un numero: ");
         numero1 = sc.nextInt();
         
-        esPrimo();
+        esPrimo(numero1);
        
        
     }
     
-    public static 
+    public static void esPrimo(int numero1){
+        if (numero1 % 2 != 0 ) {
+            System.out.println("El numero es primo");
+        }
+        else
+            System.out.println("El numero no es primo");
+        
+    }
+            
     
 }
